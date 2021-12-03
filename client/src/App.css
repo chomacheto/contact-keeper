@@ -391,6 +391,10 @@ table th {
 .item-enter-active {
   opacity: 1;
   transition: opacity 1000ms ease-in;
+  -webkit-transition: opacity 1000ms ease-in;
+  -moz-transition: opacity 1000ms ease-in;
+  -ms-transition: opacity 1000ms ease-in;
+  -o-transition: opacity 1000ms ease-in;
 }
 .item-exit {
   opacity: 1;
@@ -433,6 +437,7 @@ table th {
 
   .navbar h1 {
     margin-bottom: 0.6rem;
+    letter-spacing: 10px;
   }
 
   .navbar ul {
